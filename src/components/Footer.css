@@ -1,0 +1,123 @@
+.footer-child,
+.tagline {
+  background-color: var(--color-white);
+}
+.footer-child {
+  height: 100px;
+  width: 1440px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.tagline {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  z-index: 1;
+}
+.vector-arrow-icon {
+  position: absolute;
+  top: 0;
+  left: -0.3px;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+}
+.privacy-policy-terms1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.findtrend1 {
+  position: relative;
+  line-height: 100%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.footer-nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.contact-us,
+.privacy-policy,
+.terms-and-conditions {
+  position: relative;
+  line-height: 100%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.careers {
+  position: relative;
+  line-height: 100%;
+  z-index: 1;
+}
+.privacy-link-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 39.67px;
+}
+.footer,
+.footer-links {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-links {
+  width: 544px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-effra);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-10xl) var(--padding-81xl) var(--padding-12xl)
+    var(--padding-62xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .privacy-link-group {
+    display: none;
+    gap: 0 39.67px;
+  }
+  .footer-links {
+    width: 0;
+  }
+  .footer {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findtrend1 {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .footer {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

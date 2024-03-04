@@ -1,0 +1,170 @@
+.bg3 {
+  width: 1440px;
+  height: 584px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.findtrend-helps-you,
+.productivity-and-reduce {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.findtrend-helps-you {
+  width: 1160px;
+  z-index: 1;
+}
+.productivity-and-reduce {
+  z-index: 2;
+}
+.an-application-that {
+  color: var(--color-darkgray);
+}
+.fulfill-your-daily,
+.memory-load-an-container {
+  margin: 0;
+  width: 1160px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.fulfill-your-daily {
+  color: var(--color-darkgray);
+  z-index: 4;
+}
+.uptopageeachgroup {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-121xl) var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 724px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-effra);
+}
+.bg6 {
+  width: 1440px;
+  height: 539px;
+  position: relative;
+  background-color: var(--color-greenyellow);
+  display: none;
+  max-width: 100%;
+}
+.join-us-on,
+.more-trending-topics {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 112%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.more-trending-topics {
+  color: #87d322;
+}
+.email-join-form {
+  width: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.join-now {
+  position: relative;
+  line-height: 140%;
+}
+.email-join-now {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-27xl) var(--padding-base) 53px;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.bg6-parent,
+.findtrend-dev-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bg6-parent {
+  align-self: stretch;
+  background-color: var(--color-greenyellow);
+  padding: var(--padding-121xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 40px 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-53xl);
+  color: var(--color-black);
+  font-family: var(--font-effra);
+}
+.findtrend-dev-desk {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .findtrend-helps-you,
+  .fulfill-your-daily,
+  .memory-load-an-container,
+  .productivity-and-reduce {
+    font-size: var(--font-size-32xl);
+  }
+  .join-us-on,
+  .more-trending-topics {
+    font-size: var(--font-size-39xl);
+    line-height: 65px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bg6-parent,
+  .uptopageeachgroup {
+    padding-top: var(--padding-72xl);
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findtrend-helps-you,
+  .fulfill-your-daily,
+  .memory-load-an-container,
+  .productivity-and-reduce {
+    font-size: var(--font-size-19xl);
+  }
+  .join-us-on,
+  .more-trending-topics {
+    font-size: var(--font-size-24xl);
+    line-height: 48px;
+  }
+  .bg6-parent {
+    gap: 40px 0;
+  }
+}
